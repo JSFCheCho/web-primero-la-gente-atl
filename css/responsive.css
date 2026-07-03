@@ -79,3 +79,19 @@
     }
 
 }
+
+@media (max-width:768px){
+
+    .unete{
+        padding: 50px 20px;
+    }
+
+    .unete h2{
+        font-size: 2rem;
+    }
+
+    .descripcion-unete{
+        font-size: 1rem;
+    }
+
+}
