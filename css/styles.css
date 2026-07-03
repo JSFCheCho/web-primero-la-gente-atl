@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Cy Grotesk Grand";
+    src: url("../fuentes/CyGroteskGrand.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-custom{
+    background-color: #EADCF8; /* Lila suave */
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+/* Logo */
+.logo-navbar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Nombre */
+.navbar-brand{
+    font-family: "Cy Grotesk Grand", sans-serif;
+    color: #4B2E83;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: #4B2E83;
+}
