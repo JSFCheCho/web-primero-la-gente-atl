@@ -22,7 +22,7 @@ body{
     box-shadow: 0 2px 8px rgba(0,0,0,.08);
 }
 
-/* Logo */
+
 .logo-navbar{
     width: 50px;
     height: 50px;
@@ -30,11 +30,11 @@ body{
     object-fit: cover;
 }
 
-/* Nombre */
+
 .navbar-brand{
     font-family: "Cy Grotesk Grand", sans-serif;
     color: #4B2E83;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: 700;
 }
 
@@ -44,7 +44,7 @@ body{
 
 .hero{
     background: #7dbbbe;
-    padding: 100px 0 120px;
+    padding: 70px 0 80px;
     position: relative;
     overflow: hidden;
     font-family: "Agrandir", sans-serif;
@@ -77,4 +77,59 @@ body{
 .btn-voluntario:hover{
     background-color: #5C294E;
     color: #fff;
+}
+
+.pilares{
+    padding: 80px 0;
+    background: #fff;
+}
+
+.pilares h2,
+.pilar-card h5{
+    font-family: "Cy Grotesk", sans-serif;
+    color: #70325F;
+    font-weight: 700;
+}
+.hero-subtitle{
+    font-family: "Agrandir", sans-serif;
+    color: #70325F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.pilar-card p{
+    font-family: "Agrandir", sans-serif;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.pilar-card{
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    transition: .3s ease;
+}
+
+.pilar-card:hover{
+    transform: translateY(-8px);
+}
+
+.pilar-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #F5E9F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pilar-icon i{
+    font-size: 2rem;
+    color: #70325F;
 }
