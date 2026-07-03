@@ -4,6 +4,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "Agrandir";
+    src: url("../fuentes/Agrandir.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
 
 .navbar-custom{
     background-color: #EADCF8; /* Lila suave */
@@ -28,4 +40,41 @@
 
 .navbar-brand:hover{
     color: #4B2E83;
+}
+
+.hero{
+    background: #7dbbbe;
+    padding: 100px 0 120px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Agrandir", sans-serif;
+}
+
+.hero .container{
+    max-width: 1140px;
+}
+
+.hero h1{
+    font-size: 4rem;
+    line-height: 1.1;
+    max-width: 700px;
+}
+
+.hero .lead{
+    max-width: 650px;
+}
+
+.btn-voluntario{
+    background-color: #92437d;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.btn-voluntario:hover{
+    background-color: #5C294E;
+    color: #fff;
 }
