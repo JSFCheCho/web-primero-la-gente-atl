@@ -55,13 +55,13 @@ body{
 }
 
 .hero h1{
-    font-size: 4rem;
-    line-height: 1.1;
-    max-width: 700px;
+    font-family:"Agrandir", sans-serif;
+    font-size:clamp(2.2rem,7vw,4rem);
+    line-height:1.1;
 }
 
 .hero .lead{
-    max-width: 650px;
+    font-size:clamp(1rem,3vw,1.2rem);
 }
 
 .btn-voluntario{
