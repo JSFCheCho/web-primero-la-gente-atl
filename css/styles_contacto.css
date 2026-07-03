@@ -1,0 +1,20 @@
+.contacto-header{
+    background-color: #ff9d54;
+    padding: 80px 0 70px;
+}
+
+.contacto-header h1{
+    font-family: "Cy Grotesk", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #430E2B;
+    max-width: 700px;
+}
+
+.descripcion-header{
+    font-family: "Agrandir", sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 650px;
+}
