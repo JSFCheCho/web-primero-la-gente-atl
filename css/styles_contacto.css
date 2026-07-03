@@ -1,3 +1,9 @@
+body {
+    font-family: "Agrandir", sans-serif;
+    background-color: #f8f9fa;
+    color: #1a1a1a;
+}
+
 .contacto-header{
     background-color: #ff9d54;
     padding: 80px 0 70px;
@@ -17,4 +23,108 @@
     line-height: 1.8;
     color: #333;
     max-width: 650px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cy Grotesk Grand", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #111;
+}
+
+
+.seccion-subtitulo {
+    font-family: "Agrandir", sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.contacto {
+    padding: 60px 0;
+}
+
+form label {
+    font-family: "Agrandir", sans-serif;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    padding: 12px 14px;
+    font-family: "Agrandir", sans-serif;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #1b263b;
+    box-shadow: 0 0 0 0.15rem rgba(27, 38, 59, 0.15);
+}
+
+/* textarea */
+textarea.form-control {
+    resize: none;
+}
+
+.btn-voluntario {
+    background-color: #1b263b;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-family: "Agrandir", sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: all 0.25s ease;
+    width: 100%;
+}
+
+.btn-voluntario:hover {
+    background-color: #0d1b2a;
+    transform: translateY(-1px);
+}
+
+/* estado disabled */
+.btn-voluntario:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: block;
+}
+
+.contador {
+    font-size: 0.85rem;
+    color: #6c757d;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.alert {
+    border-radius: 10px;
+    font-family: "Agrandir", sans-serif;
+}
+
+/* éxito */
+.alert-success {
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+    color: #1b5e20;
+}
+
+/* error */
+.alert-danger {
+    background-color: #ffebee;
+    border: 1px solid #ef9a9a;
+    color: #b71c1c;
 }
