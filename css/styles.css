@@ -65,6 +65,16 @@ body{
     font-size:clamp(1rem,3vw,1.2rem);
 }
 
+.titulo-principal{
+    font-family: "Cy Grotesk Grand", sans-serif;
+    font-weight: 700; /* o 800 si la fuente lo soporta */
+}
+
+.destacado {
+    font-family: "Agrandir", sans-serif;
+    font-weight: bold;
+}
+
 .btn-voluntario{
     background-color: #92437d;
     color: #fff;
